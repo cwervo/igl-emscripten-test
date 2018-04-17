@@ -11,3 +11,9 @@ But, to compile an Emscripten version, use:
 ```
 em++ -std=c++11 -I/usr/local/include/eigen3 -I../libigl/include/ hello.cpp -o hello
 ```
+
+To build the web version use:
+
+```
+em++ -std=c++11 -I/usr/local/include/eigen3 -I../libigl/include/ hello.cpp -o index.html
+```
